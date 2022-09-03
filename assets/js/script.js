@@ -8,14 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 			if (from in data) {
 				var to = data[from];
-				console.log(from);
-				console.log(to);
+
+				window.location.replace(to);
 			}
 		},
-		function(xhr) { console.error(xhr); }
+		function(xhr) { }
 	);
-
-	window.location.replace(newurl);
 }, false);
 
 function loadJSON(path, success, error) {
