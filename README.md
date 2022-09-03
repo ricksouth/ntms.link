@@ -12,7 +12,7 @@ It gets the URLS to shorten from a JSON file:\
 }
 ```
 &nbsp;\
-Which a basic JavaScript turns into a new URL:\
+Which a basic JavaScript turns into a new URL: (via a catch-all 404 page)\
 &nbsp;https://github.com/ricksouth/ntms.link/blob/main/assets/js/script.js
 ```
 document.addEventListener('DOMContentLoaded', function() {
