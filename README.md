@@ -27,7 +27,10 @@ document.addEventListener('DOMContentLoaded', function() {
 				var to = data[from];
 
 				window.location.replace(to);
+				return;
 			}
+
+			window.location.replace("https://github.com/ricksouth/ntms.link");
 		},
 		function(xhr) { }
 	);
@@ -38,5 +41,9 @@ These URLS are now shortened via Github Pages:
  - https://ntms.link/github -> https://github.com/ricksouth
  - https://ntms.link/curseforge -> https://curseforge.com/members/serilum/projects
  - https://ntms.link/modrinth -> https://modrinth.com/user/serilum
+ 
+Anything else will link back to this repository:
+ - https://ntms.link/ -> https://github.com/ricksouth/ntms.link
+ - https://ntms.link/blabla -> https://github.com/ricksouth/ntms.link
 
 ### That's it! 🤷
