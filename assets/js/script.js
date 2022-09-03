@@ -10,7 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
 				var to = data[from];
 
 				window.location.replace(to);
+				return;
 			}
+
+			window.location.replace("https://github.com/ricksouth/ntms.link");
 		},
 		function(xhr) { }
 	);
