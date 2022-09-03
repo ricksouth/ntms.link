@@ -1,8 +1,8 @@
 ## https://ntms.link/
 ### A basic URL shortener.
 
-It gets the URLS to shorten from a JSON file:
-https://github.com/ricksouth/ntms.link/blob/main/urls/shortened_urls.json
+It gets the URLS to shorten from a JSON file:\
+&nbsp;https://github.com/ricksouth/ntms.link/blob/main/urls/shortened_urls.json
 
 ```
 {
@@ -12,8 +12,8 @@ https://github.com/ricksouth/ntms.link/blob/main/urls/shortened_urls.json
 }
 ```
 &nbsp;\
-Which a basic JavaScript turns into a new URL:
-https://github.com/ricksouth/ntms.link/blob/main/assets/js/script.js
+Which a basic JavaScript turns into a new URL:\
+&nbsp;https://github.com/ricksouth/ntms.link/blob/main/assets/js/script.js
 ```
 document.addEventListener('DOMContentLoaded', function() {
 	var url = document.URL + "";
