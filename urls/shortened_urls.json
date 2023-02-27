@@ -6,5 +6,7 @@
 	"changelog" : "https://discord.gg/fZJ45VkyRC",
 	"getaserver" : "https://bisecthosting.com/serilum",
 	"relay" : "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-	"pastebot" : "https://discord.com/oauth2/authorize?client_id=1077612370551132291&scope=bot"
+	
+	"pastebot" : "https://discord.com/oauth2/authorize?client_id=1077612370551132291&scope=bot&permissions=274877918208",
+	"publishbot" : "https://discord.com/oauth2/authorize?client_id=1079752148360908810&scope=bot&permissions=9216"
 }
