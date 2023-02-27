@@ -32,6 +32,6 @@ function loadJSON(path, success, error) {
 			}
 		}
 	};
-	xhr.open("GET", path, true);
+	xhr.open("GET", path + "?preventCache=" + new Date(), true);
 	xhr.send();
 }
